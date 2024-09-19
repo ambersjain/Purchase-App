@@ -2,16 +2,15 @@
 
 ## Overview
 This Python script processes a JSON file containing purchase data and calculates the following:
-- Total Volume of Spend
-- Average Purchase Value
-- Maximum Purchase Value
-- Median Purchase Value
-- Number of Unique Products Purchased
+- total Volume of Spend
+- avg Purchase Value
+- maximum Purchase Value
+- median Purchase Value
+- num of Unique Products Purchased
 
 ## Features
 - Error handling for missing or invalid JSON files.
-- Configuration through environment variables for flexible paths and settings.
-- Dockerized for portability and ease of deployment.
+- Dockerized for portability.
 
 ## Requirements
 - Python 3.9+
