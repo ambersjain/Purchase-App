@@ -36,6 +36,12 @@ Clone the repository and run via following bash:
     docker run process-purchase-docker
 ```
 
+## Running unit tests
+
+``` bash
+python3 -m unittest discover tests  
+```
+
 ## How can this me made more performant?
 
 1. When json file is large, and doesn't fit in memory, can use ijson, which helps us read json data as a stream (incrementally) or lazy data loading.
