@@ -38,15 +38,15 @@ class TestProcessPurchase(unittest.TestCase): # (inheriting)
         # Simulating a basic JSON structure with two purchases
         data = [
             {
-                "purchase_id": "id1",
+                "purchase_id": "fsdfdashafsdkjh",
                 "items": [
-                    {"product_name": "Product A", "quantity": 2, "price": 50}
+                    {"product_name": "Bunnings Ryobi", "quantity": 2, "price": 50}
                 ]
             },
             {
-                "purchase_id": "id2",
+                "purchase_id": "afsdkjbfdakjh",
                 "items": [
-                    {"product_name": "Product B", "quantity": 1, "price": 100}
+                    {"product_name": "Kmart Cloth", "quantity": 1, "price": 100}
                 ]
             }
         ]
@@ -57,7 +57,7 @@ class TestProcessPurchase(unittest.TestCase): # (inheriting)
             "Average purchase value": "$100.00",
             "Maximum purchase value": "$100.00",
             "Median purchase value": "$100.00",
-            "Number of unique products purchased": 2
+            "Number of unique products purchased": 3
         }
         self.assertEqual(results, expected_results)
 
